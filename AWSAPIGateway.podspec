@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   s.license      = 'Apache License, Version 2.0'
   s.author       = { 'Amazon Web Services' => 'amazonwebservices' }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => 'https://github.com/aws/aws-sdk-ios.git',
-                     :tag => s.version}
+  s.source       = { :git => 'https://github.com/naname-yoko/aws-sdk-ios.git' }
   s.requires_arc = true
   s.dependency 'AWSCore', '2.4.16'
 
